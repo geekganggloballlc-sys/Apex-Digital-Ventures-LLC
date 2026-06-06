@@ -15,10 +15,10 @@ const nextConfig: NextConfig = {
                   params: {
                     overrides: {
                       removeViewBox: false,
-                      removeDimensions: true,
                     },
                   },
                 },
+                'removeDimensions',
               ],
             },
             dimensions: false, // Remove width/height from SVG

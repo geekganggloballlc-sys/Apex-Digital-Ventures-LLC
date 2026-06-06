@@ -8,9 +8,6 @@ import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import { StyledButton } from '@/components/core'
 
-// configs
-import { AppConfig } from '@/configs'
-
 // navigation
 import Link from 'next/link'
 

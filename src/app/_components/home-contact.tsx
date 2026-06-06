@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
@@ -133,7 +134,7 @@ const HomeContact = () => {
                     },
                   }}
                 >
-                  <img src='/images/envelope-1.svg' alt='Footer contact' />
+                  <Image src='/images/envelope-1.svg' alt='Footer contact' width={500} height={400} />
                 </Box>
                 <Box sx={{ mt: 4 }}>
                   <Link href='/contact' passHref>
